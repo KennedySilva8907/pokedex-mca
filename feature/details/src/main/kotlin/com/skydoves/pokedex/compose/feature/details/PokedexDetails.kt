@@ -255,6 +255,11 @@ private fun DetailsInfo(pokemonInfo: PokemonInfo) {
     )
 
     PokemonInfoItem(
+      title = pokemonInfo.getMcaString(),
+      content = stringResource(id = R.string.mca_index),
+    )
+
+    PokemonInfoItem(
       title = pokemonInfo.getHeightString(),
       content = stringResource(id = R.string.height),
     )

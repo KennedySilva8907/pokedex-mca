@@ -17,6 +17,7 @@
 package com.skydoves.pokedex.compose.core.model
 
 import androidx.compose.runtime.Immutable
+import java.util.Locale
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlin.random.Random
@@ -50,6 +51,7 @@ data class PokemonInfo(
   fun getIdString(): String = String.format("#%03d", id)
   fun getWeightString(): String = String.format("%.1f KG", weight.toFloat() / 10)
   fun getHeightString(): String = String.format("%.1f M", height.toFloat() / 10)
+  fun getMcaString(): String = String.format(Locale.US, "%.2f", indiceMca())
   fun getHpString(): String = " $hp/$MAX_HP"
   fun getAttackString(): String = " $attack/$MAX_ATTACK"
   fun getDefenseString(): String = " $defense/$MAX_DEFENSE"

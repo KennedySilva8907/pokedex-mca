@@ -18,6 +18,7 @@
   <string name="app_name">Pokédex Compose</string>
   <string name="height">Altura</string>
   <string name="weight">Peso</string>
+  <string name="mca_index">Índice MCA</string>
   <string name="base_stats">Puntos de base</string>
   <string name="hp">HP</string>
   <string name="atk">ATK</string>
