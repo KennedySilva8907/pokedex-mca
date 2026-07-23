@@ -17,6 +17,7 @@
 <resources>
   <string name="app_name">Pokédex Compose</string>
   <string name="weight">Peso</string>
+  <string name="mca_index">Índice MCA</string>
   <string name="height">Altezza</string>
   <string name="base_stats">Statistiche base</string>
   <string name="hp">PS</string>
