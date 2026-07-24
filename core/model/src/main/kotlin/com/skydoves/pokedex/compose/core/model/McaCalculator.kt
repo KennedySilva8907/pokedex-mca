@@ -37,9 +37,10 @@ fun calcularIad(
 
   val numerador = (hp * fatorCategoria) + (attack * speed)
   // +1 no defense e na height evita divisao por zero.
-  val denominador = ((defense + 1) * (height + 1)) + weight
+  val denominador = (defense + 1) * (height + 1)
 
-  val resultado = (numerador.toDouble() / denominador) * multiplicador
+  // O weight e somado a fracao, nao faz parte do denominador.
+  val resultado = ((numerador.toDouble() / denominador) + weight) * multiplicador
 
   // Arredonda a 2 casas decimais.
   return Math.round(resultado * 100.0) / 100.0
