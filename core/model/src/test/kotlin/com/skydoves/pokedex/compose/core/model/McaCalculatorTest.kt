@@ -22,63 +22,63 @@ import org.junit.Test
 class McaCalculatorTest {
 
   @Test
-  fun bulbasaur_tem_indice_de_4_ponto_39() {
+  fun bulbasaur_tem_indice_de_56_ponto_90() {
     val iad = calcularIad(45, 49, 49, 45, 7, 69, listOf("grass", "poison"))
-    assertEquals(4.39, iad, 0.001)
+    assertEquals(56.90, iad, 0.001)
   }
 
   @Test
-  fun charmander_tem_indice_de_12_ponto_68() {
+  fun charmander_tem_indice_de_130_ponto_93() {
     val iad = calcularIad(39, 52, 43, 65, 6, 85, listOf("fire"))
-    assertEquals(12.68, iad, 0.001)
+    assertEquals(130.93, iad, 0.001)
   }
 
   @Test
-  fun charizard_tem_indice_de_5_ponto_51() {
+  fun charizard_tem_indice_de_1230_ponto_76() {
     val iad = calcularIad(78, 84, 78, 100, 17, 905, listOf("fire", "flying"))
-    assertEquals(5.51, iad, 0.001)
+    assertEquals(1230.76, iad, 0.001)
   }
 
   @Test
-  fun pikachu_tem_indice_de_26_ponto_64() {
+  fun pikachu_tem_indice_de_115_ponto_44() {
     val iad = calcularIad(35, 55, 40, 90, 4, 60, listOf("electric"))
-    assertEquals(26.64, iad, 0.001)
+    assertEquals(115.44, iad, 0.001)
   }
 
   @Test
-  fun onix_tem_indice_de_0_ponto_21() {
+  fun onix_tem_indice_de_2100_ponto_24() {
     val iad = calcularIad(35, 45, 160, 70, 88, 2100, listOf("rock", "ground"))
-    assertEquals(0.21, iad, 0.001)
+    assertEquals(2100.24, iad, 0.001)
   }
 
   @Test
-  fun eevee_tem_indice_de_12_ponto_06() {
+  fun eevee_tem_indice_de_80_ponto_91() {
     val iad = calcularIad(55, 55, 50, 55, 3, 65, listOf("normal"))
-    assertEquals(12.06, iad, 0.001)
+    assertEquals(80.91, iad, 0.001)
   }
 
   @Test
-  fun snorlax_tem_indice_de_0_ponto_65() {
+  fun snorlax_tem_indice_de_4602_ponto_71() {
     val iad = calcularIad(160, 110, 65, 30, 21, 4600, listOf("normal"))
-    assertEquals(0.65, iad, 0.001)
+    assertEquals(4602.71, iad, 0.001)
   }
 
   @Test
-  fun dragonite_tem_indice_de_2_ponto_83() {
+  fun dragonite_tem_indice_de_2105_ponto_51() {
     val iad = calcularIad(91, 134, 95, 80, 22, 2100, listOf("dragon", "flying"))
-    assertEquals(2.83, iad, 0.001)
+    assertEquals(2105.51, iad, 0.001)
   }
 
   @Test
-  fun mewtwo_tem_indice_de_4_ponto_77() {
+  fun mewtwo_tem_indice_de_1227_ponto_82() {
     val iad = calcularIad(106, 110, 90, 130, 20, 1220, listOf("psychic"))
-    assertEquals(4.77, iad, 0.001)
+    assertEquals(1227.82, iad, 0.001)
   }
 
   @Test
-  fun skarmory_tem_indice_de_2_ponto_18() {
+  fun skarmory_tem_indice_de_507_ponto_62() {
     val iad = calcularIad(65, 80, 140, 70, 17, 505, listOf("steel", "flying"))
-    assertEquals(2.18, iad, 0.001)
+    assertEquals(507.62, iad, 0.001)
   }
 
   @Test
@@ -128,7 +128,7 @@ class McaCalculatorTest {
   fun multiplicador_vem_do_tipo_primario_e_nao_do_secundario() {
     val firePrimario = calcularIad(10, 10, 10, 10, 10, 10, listOf("fire", "flying"))
     val flyingPrimario = calcularIad(10, 10, 10, 10, 10, 10, listOf("flying", "fire"))
-    assertEquals(2.47, firePrimario, 0.001)
-    assertEquals(1.83, flyingPrimario, 0.001)
+    assertEquals(16.18, firePrimario, 0.001)
+    assertEquals(11.98, flyingPrimario, 0.001)
   }
 }

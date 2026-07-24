@@ -1,18 +1,18 @@
 # Screenshots — Índice MCA
 
-Capturas do emulador (Pixel_7) com nome, ID oficial e Índice MCA legíveis.
+Capturas do emulador (Pixel_7_Pro) com nome, ID oficial e Índice MCA legíveis.
 
 | Ficheiro | Pokémon | ID | Índice MCA |
 |----------|---------|----|------------|
-| `001_bulbasaur_4.39.png` | Bulbasaur | 1 | 4.39 |
-| `004_charmander_12.68.png` | Charmander | 4 | 12.68 |
-| `006_charizard_5.51.png` | Charizard | 6 | 5.51 |
-| `025_pikachu_26.64.png` | Pikachu | 25 | 26.64 |
-| `095_onix_0.21.png` | Onix | 95 | 0.21 |
-| `133_eevee_12.06.png` | Eevee | 133 | 12.06 |
-| `143_snorlax_0.65.png` | Snorlax | 143 | 0.65 |
-| `149_dragonite_2.83.png` | Dragonite | 149 | 2.83 |
-| `150_mewtwo_4.77.png` | Mewtwo | 150 | 4.77 |
-| `227_skarmory_2.18.png` | Skarmory | 227 | 2.18 |
+| `001_bulbasaur_56.90.png` | Bulbasaur | 1 | 56.90 |
+| `004_charmander_130.93.png` | Charmander | 4 | 130.93 |
+| `006_charizard_1230.76.png` | Charizard | 6 | 1230.76 |
+| `025_pikachu_115.44.png` | Pikachu | 25 | 115.44 |
+| `095_onix_2100.24.png` | Onix | 95 | 2100.24 |
+| `133_eevee_80.91.png` | Eevee | 133 | 80.91 |
+| `143_snorlax_4602.71.png` | Snorlax | 143 | 4602.71 |
+| `149_dragonite_2105.51.png` | Dragonite | 149 | 2105.51 |
+| `150_mewtwo_1227.82.png` | Mewtwo | 150 | 1227.82 |
+| `227_skarmory_507.62.png` | Skarmory | 227 | 507.62 |
 
 Nomenclatura: `ID_NOME_MCA.png` (conforme enunciado).
