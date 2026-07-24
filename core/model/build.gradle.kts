@@ -35,4 +35,7 @@ dependencies {
 
   // kotlinx
   api(libs.kotlinx.immutable.collection)
+
+  // testes unitarios
+  testImplementation(libs.junit)
 }
